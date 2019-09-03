@@ -1,0 +1,48 @@
+<!doctype html>
+{%load staticfiles%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{%static 'css/base_style.css'%}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    <h1>Name</h1>
+    </div>
+    <div class="menu">
+        <ol>
+            <li>Касса</li>
+        </ol>
+        <ol>
+            <li>ДДС</li>
+        </ol>
+        <ol>
+            <li>Поставка</li>
+        </ol>
+        <ol>
+            <li>Задачи</li>
+        </ol>
+        <ol>
+            <li>Сотрудники</li>
+        </ol>
+        <ol>
+            <li>Клиенты</li>
+        </ol>
+        <ol>
+            <li>Настройки</li>
+        </ol>
+    </div>
+    <div class="content">
+        {%block content%}
+
+        {%endblock%}
+    </div>
+    <div class="footer">
+        Copyright
+    </div>
+</body>
+</html>
